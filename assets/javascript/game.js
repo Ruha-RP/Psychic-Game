@@ -9,7 +9,7 @@ var  wins = 0;
 //Track the losses
 var losses = 0;
 //Track the overall guesses
-var guesses = 3;
+var guesses = 10;
 		
 //Making an empty array
 var guessesSoFar = document.getElementById("soFar");
@@ -63,7 +63,7 @@ document.onkeyup = function(event) {
 		};
 
 	function reset() {
-		guesses = 3;
+		guesses = 10;
 		soFar = [];
 		computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 		console.log("Resetting the game and new computerGuess is " + computerGuess);
