@@ -14,3 +14,6 @@ Guess the Letter the Psychic is thinking of.
 <br>
 You have 10 guesses!
 
+## Future Development
+1. Incorporating animations and sound effects
+
